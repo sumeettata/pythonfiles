@@ -1,0 +1,9 @@
+path: D:/Work/Tata Communications/python files/yolo_folder/test_data  # dataset root dir
+train: ../valid 
+val: ../train  
+test: 
+
+# Classes
+names:
+  0: person
+  
