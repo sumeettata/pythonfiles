@@ -1,0 +1,27 @@
+# Training Information
+
+model: yolov8m-seg.pt
+epochs: 500
+save_period: 100
+project: hook_nut_trail3
+optimizer: SGD
+resume: False
+lr0: 0.001
+
+# Data Information
+path: /CV/model_training/ultralytics_v2/data/segment-hook
+
+# Classes
+names:
+  0: hook
+  1: nut
+
+#settings
+mode: segment
+Train: True
+xml_to_txt: False
+csv_to_txt: False
+json_to_txt: True
+xml_name_change: False
+txt_name_change: False
+
