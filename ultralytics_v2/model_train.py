@@ -4,6 +4,7 @@ from ultralytics.yolo.v8.segment.train import SegmentationTrainer
 import yaml
 import os
 
+##git
 # change current directory
 current_dir = os.getcwd()
 os.chdir('/CV/model_training/ultralytics_v2/')
